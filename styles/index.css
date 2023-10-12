@@ -1,0 +1,29 @@
+
+.banner-area {
+	position: relative;
+	letter-spacing: 0.1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../assets/bg/SacramentoWaterfront.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+	user-select: none;
+}
+
+.nav{
+	position: absolute;
+	top: 0;
+	font-size: 0.8em;
+	color: black !important;
+	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: 6;
+}
