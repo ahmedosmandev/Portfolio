@@ -14,7 +14,7 @@ a, a:hover {
   text-decoration: none;
 }
 
-.top-bar {
+.social {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,25 +22,25 @@ a, a:hover {
   background: black;
 }
 
-.top-bar span{
+.social span{
   color: #fff;
 }
 
-.top-bar ul {
+.social ul {
   list-style: none;
   display: flex;
 }
 
-.top-bar li{
+.social li{
   margin: 0px 5px;
 }
 
-.top-bar a{
+.social a{
   color: #fff;
 }
 
-.top-bar a:hover{
-  color:#222;
+.social a:hover{
+  color:gray;
 }
 
 
