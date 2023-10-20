@@ -5,30 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmed Osman</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
-    <header>
-        <a class="logo" href="/"><img src="assets/logo/AhmedOsman.svg" alt="logo"></a> 
-        <nav>
+    <div class="social">
+        <nav class="top-bar">
+            <span><ion-icon name="call-outline"></ion-icon> 916-807-4534</span>
             <ul class="nav_links">
-                <li><a href="#">Technologies</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="https://www.linkedin.com/in/ahmedaosman00/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/ahmedaosman-hub"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="mailto: ahmedaosman00@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
             </ul>
         </nav>
-        <a class="contact" href="#">Contact</a>
-        <p class="menu cta">Menu</p>
-    </header>
-    <div id="mobile_menu" class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay_content">
-            <li><a href="#">Technologies</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>
         </div>
+<nav> 
+    <div class="logo">
+        <a href="#"><img src="assets/logo/AhmedOsman.svg" alt="logo"></a>
     </div>
-    <script type="text/javascript" src="js/mobile.js"></script>
+    <div class="toggle">
+        <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+    </div>
+
+    <ul class="menu">
+        <li><a href="#">Technologies</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>   
+        <li><a href="#">Contact</a></li>
+     </ul>
+</nav>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $(".toggle").on("click", function(){
+            if ($(".menu").hasClass("active")){
+                $(".menu").removeClass("active");
+                $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+            }else {
+                $(".menu").addClass("active");
+                $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+            }
+        }
+        )
+    })
+</script>
+
+
     <div class="container">
         <div class="banner-area">
             
@@ -41,74 +62,17 @@
                             I will be updating these pages frequently, as I learn more, in hopes of having it listed as my personal website, maybe even a blog! Please feel free to contact me for 
                             suggestions on improvements. I am currently looking for work in the web development field. Please email me at ahmedaosman00@gmail.com for any inquries </p>
                 </div>
-                <div class="social-links">
-                    <a class="link" href="https://github.com/ahmedaosman-hub">
-                        <i class="fa fa-github" aria-hidden="true">
-                            
-                        </i>
-                        <p>Github</p>
-                    </a>
-                    <a class="link" href="https://www.linkedin.com/in/ahmedaosman00/">
-                        <i class="fa fa-linkedin" aria-hidden="true">
-        
-                        </i>
-                        <p>LinkedIn</p>
-                    </a>
-                    <a class="link" href="mailto: ahmedaosman00@gmail.com">
-                        <i class="fa fa-envelope" aria-hidden="true">
-        
-                        </i>
-                        <p>Email</p>
-                    </a>
-                </div>
-                <a href="#projects" class="banner-btn">
-                    View Projects
-                </a>
             </div>
             
         </div>
-        <div id="technologies">
-            <h3>
-                I am a full stack developer specializing in the asp.net platform. 
-            </h3>
-
-            <div class="skills">
-
-            </div>
-        </div>
-        <div id="projects">
-            <div class="project">
-
-            </div>
-        </div>
+       
         <div id="contact">
             <h2 class="title">Contact Me</h2>
             <p>
                 If you are interested in getting in touch or have questions.
             </p>
-            <div class="social-links">
-                <a class="link" href="https://github.com/ahmedaosman-hub">
-                    <i class="fa fa-github" aria-hidden="true">
-                        
-                    </i>
-                    <p>Github</p>
-                </a>
-                <a class="link" href="https://www.linkedin.com/in/ahmedaosman00/">
-                    <i class="fa fa-linkedin" aria-hidden="true">
-    
-                    </i>
-                    <p>LinkedIn</p>
-                </a>
-                <a class="link" href="mailto: ahmedaosman00@gmail.com">
-                    <i class="fa fa-envelope" aria-hidden="true">
-    
-                    </i>
-                    <p>Email</p>
-                </a>
-            </div>
         </div>
     </div>
-    
     
 
 
