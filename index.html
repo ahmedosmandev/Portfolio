@@ -8,52 +8,54 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
-    <div class="top-bar">
-        <nav class="social">
-            <span><ion-icon name="call-outline"></ion-icon> 916-807-4534</span>
-            <ul class="nav_links">
-                <li><a href="https://www.linkedin.com/in/ahmedaosman00/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="https://github.com/ahmedaosman-hub"><ion-icon name="logo-github"></ion-icon></a></li>
-                <li><a href="mailto: ahmedaosman00@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
-            </ul>
-        </nav>
-    </div>
-    
-    <div class="header">
-        <nav> 
-            <div class="logo">
-                <a href="#"><img src="assets/logo/AhmedOsman.svg" alt="logo"></a>
-            </div>
-            <div class="toggle">
-                <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
-            </div>
-
-            <ul class="menu">
-                <li><a href="#">Technologies</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">About</a></li>   
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="menu-button">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script>
-            $(function(){
-                $(".toggle").on("click", function(){
-                    if ($(".menu").hasClass("active")){
-                        $(".menu").removeClass("active");
-                        $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
-                    }else {
-                        $(".menu").addClass("active");
-                        $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
-                    }
-                }
-                )
-            })
-        </script>
-    </div>
+    <div id="defaultHeader">
+        <div class="top-bar">
+          <nav class="social">
+              <span><ion-icon name="call-outline"></ion-icon> 916-807-4534</span>
+              <ul class="nav_links">
+                  <li><a href="https://www.linkedin.com/in/ahmedaosman00/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                  <li><a href="https://github.com/ahmedaosman-hub"><ion-icon name="logo-github"></ion-icon></a></li>
+                  <li><a href="mailto: ahmedaosman00@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+              </ul>
+          </nav>
+        </div>
+      
+        <div class="header">
+          <nav> 
+              <div class="logo">
+                  <a href="#"><img src="/assets/logo/AhmedOsman.svg" alt="logo"></a>
+              </div>
+              <div class="toggle">
+                  <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+              </div>
+      
+              <ul class="menu">
+                  <li><a href="#">Technologies</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">About</a></li>   
+                  <li><a href="pages/contact.html">Contact</a></li>
+              </ul>
+          </nav>
+        </div>
+      
+        <div class="menu-button">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+          <script>
+              $(function(){
+                  $(".toggle").on("click", function(){
+                      if ($(".menu").hasClass("active")){
+                          $(".menu").removeClass("active");
+                          $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                      }else {
+                          $(".menu").addClass("active");
+                          $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                      }
+                  }
+                  )
+              })
+          </script>
+        </div>
+        </div>
 
 
     <div class="container">
