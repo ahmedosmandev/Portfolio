@@ -1,23 +1,67 @@
-<div class="container">
-    <form action="../php/process-form.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
-  
-    </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="../css/contact.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+  <div class="top-bar">
+    <nav class="social">
+        <span><ion-icon name="call-outline"></ion-icon> 916-807-4534</span>
+        <ul class="nav_links">
+            <li><a href="https://www.linkedin.com/in/ahmedaosman00/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://github.com/ahmedaosman-hub"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a href="mailto: ahmedaosman00@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+        </ul>
+    </nav>
   </div>
+
+  <div class="header">
+    <nav> 
+        <div class="logo">
+            <a href="#"><img src="/assets/logo/AhmedOsman.svg" alt="logo"></a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#">Technologies</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>   
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <div class="menu-button">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".toggle").on("click", function(){
+                if ($(".menu").hasClass("active")){
+                    $(".menu").removeClass("active");
+                    $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                }else {
+                    $(".menu").addClass("active");
+                    $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+            }
+            )
+        })
+    </script>
+  </div>
+
+  <form action="https://formspree.io/f/xaygvnoy" method="POST">
+    <h1>Contact Form</h1>
+    <input type="text" name="first" placeholder="First Name" required>
+    <input type="text" name="last" placeholder="Last Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <textarea rows="5" cols="60" name="message" placeholder="Enter message" autocomplete="off" required></textarea>
+    <button type="submit"> Send message</button>
+  </form>
+</body>
+</html>
