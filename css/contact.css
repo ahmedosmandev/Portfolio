@@ -165,18 +165,19 @@ textarea{
 
 input:focus-within{
 outline : none;
-border-color: turquoise;
+border-color: #797b84;
 border-width: 3px;
 }
 
 textarea:focus-within{
   outline : none;
-  border-color: turquoise;
+  border-color: #797b84;
   border-width: 3px;
   }
 
   button{
-    background: turquoise;
+    color: white;
+    background: #797b84;
     border-radius: 20px;
     border-color: black;
     font-size: 12px;
