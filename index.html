@@ -1,37 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahmed Osman</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5638103696534562"
-     crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+ 
+  </head>
+
+  <body>
     <div id="header">
-        <div class="top-bar">
-            <nav>
-                <img src="assets/logo/AhmedOsman.svg" class="logo">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-            </nav>
-            <div class="introduction">
-                <p>Full Stack Developer</p>
-                <h1>Hi, I am <span>Ahmed</span><br> from USA</h1>
-            </div>
+      <div class="top-bar">
+        <nav>
+          <img src="assets/logo/AhmedOsman.svg" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="introduction">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi, I am <span>Ahmed</span><br />
+            from Sacramento, CA
+          </h1>
         </div>
+      </div>
+    </div>
+
+    <!--------------------------about-------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/images/me.png"/>
+          </div>
+          <div class="about-col-1">
+            <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hey there! I am Ahmed, a computer science student at Sacramento State University with aspirations of becoming a full stack developer. 
+                </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                <p class="tab-links" onclick="openTab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Developer for full stack apps</li>
+                    <li><span>Web Development</span><br>Developer for full stack apps</li>
+                    <li><span>App Development</span><br>Developer for full stack apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br>Developer for full stack apps</li>
+                    <li><span>Web Development</span><br>Developer for full stack apps</li>
+                    <li><span>App Development</span><br>Developer for full stack apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>UI/UX</span><br>Developer for full stack apps</li>
+                    <li><span>Web Development</span><br>Developer for full stack apps</li>
+                    <li><span>App Development</span><br>Developer for full stack apps</li>
+                </ul>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
 
 
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-
-</body>
+        function openTab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+  </body>
 </html>
