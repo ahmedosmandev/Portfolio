@@ -19,7 +19,7 @@ body {
   background-position: center;
 }
 
-.top-bar {
+.container {
   padding: 10px 10%;
 }
 
@@ -62,17 +62,17 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.introduction{
+.header-text{
   margin-top: 20%;
   font-size: 30px;
 }
 
-.introduction h1 {
+.header-text h1 {
   font-size: 60px;
   margin-top: 20px;
 }
 
-.introduction h1 span {
+.header-text h1 span {
   color: #ff004f;
 }
 
