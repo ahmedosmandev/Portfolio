@@ -31,7 +31,7 @@ nav {
 }
 
 .logo {
-  width: 140px;
+  width: 250px;
 }
 
 nav ul li {
@@ -62,7 +62,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.introduction, .container {
+.introduction{
   margin-top: 20%;
   font-size: 30px;
 }
@@ -78,8 +78,9 @@ nav ul li a:hover::after {
 
 /* --------------------------about------------------------- */
 
+
 #about {
-  padding: 80px 0;
+  padding: 80px 5%;
   color: #ababab;
 }
 
@@ -90,12 +91,12 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-  flex-basis: 45%;
+  flex-basis: 35%;
 }
+
 .about-col-1 img {
   width: 100%;
-  border-radius: 30px;
-  
+  border-radius: 15px;
 }
 
 .about-col-2 {
@@ -136,20 +137,20 @@ nav ul li a:hover::after {
   width: 50%;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
   list-style: none;
   margin: 10px 0;
 }
 
-.tab-contents ul li span{
+.tab-contents ul li span {
   color: #b54769;
   font-size: 14px;
 }
 
-.tab-contents{
+.tab-contents {
   display: none;
 }
 
-.tab-contents.active-tab{
+.tab-contents.active-tab {
   display: block;
 }
