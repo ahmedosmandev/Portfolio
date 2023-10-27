@@ -55,7 +55,7 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/ahmedaosman00/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="mailTo: ahmedaosman00@gmail.com">
+      <SocialIcons href="mailto: ahmedaosman00@gmail.com">
         <AiFillMail size="3rem" />
       </SocialIcons>
     </Div3>
