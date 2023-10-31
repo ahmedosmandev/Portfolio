@@ -17,7 +17,12 @@ const Header = () => (
     <Div1>
       <Link legacyBehavior href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <img src="/logo/AhmedOsman.svg" alt="logo" width={200} height={50} />
+          <img
+            src="assets/logo/AhmedOsman.svg"
+            alt="logo"
+            width={200}
+            height={50}
+          />
         </a>
       </Link>
     </Div1>
