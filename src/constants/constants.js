@@ -1,12 +1,11 @@
 export const projects = [
   {
-    title: "Social Media ",
+    title: "What's the weather today",
     description:
-      "Contains advanced features such as google authentication, create, edit, delete, and save posts, like and comment on posts, as well as image search and filtering.",
-    image: "/images/socialmedia.png",
-    tags: ["React", "Tailwind", "Sanity"],
-    code: "https://github.com/ahmedaosman-hub/Social-Media",
-    source: "https://ahmedaosman-hub.github.io/Social-Media/",
+      "What's the weather today: A simple and responsive web-based weather app built using HTML, CSS, and JavaScript. Leveraging the OpenWeather API, it provides current weather updates with a clean and straightforward interface. Designed as a testament to my skills in front-end development and API integration.",
+    tags: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    code: "https://github.com/ahmedaosman-hub/WeatherApp",
+    source: "https://ahmedaosman-hub.github.io/WeatherApp/",
     id: 0,
   },
 ];
