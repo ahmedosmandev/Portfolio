@@ -19,6 +19,16 @@ export const projects = [
     image: "assets/images/tasktrail.png",
     id: 1,
   },
+  {
+    title: "Communiverse - In Progress",
+    description:
+      "Communiverse: A full-stack social media app built using the MERN stack. Features user authentication, post creation, and post interaction. Designed to showcase my proficiency in full-stack development and API integration.",
+    tags: ["MongoDB", "Express", "React", "Node"],
+    code: "https://github.com/ahmedaosman-hub/Communiverse/",
+    source: "https://ahmedaosman-hub.github.io/Communiverse/",
+    image: "assets/images/communiverse.png",
+    id: 2,
+  },
 ];
 
 export const TimeLineData = [
