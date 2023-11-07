@@ -23,7 +23,7 @@ export const projects = [
     title: "Communiverse - In Progress",
     description:
       "Communiverse: A full-stack social media app built using the MERN stack. Features user authentication, post creation, and post interaction. Designed to showcase my proficiency in full-stack development and API integration.",
-    tags: ["MongoDB", "Express", "React", "Node"],
+    tags: ["MongoDB", "Express", "React", "Node", "Authorization"],
     code: "https://github.com/ahmedaosman-hub/Communiverse/",
     source: "https://ahmedaosman-hub.github.io/Communiverse/",
     image: "assets/images/communiverse.png",
