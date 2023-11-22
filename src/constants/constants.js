@@ -29,6 +29,16 @@ export const projects = [
     image: "assets/images/communiverse.png",
     id: 2,
   },
+  {
+    title: "Pricing Panel",
+    description:
+      "Pricing Panel: A responsive pricing panel built using HTML and CSS. Features a clean and modern design with hover effects and a toggle switch. Designed to showcase my proficiency in front-end development and design.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    code: "https://github.com/ahmedaosman-hub/Pricing-Panel/",
+    source: "https://ahmedaosman-hub.github.io/Pricing-Panel/",
+    image: "assets/images/pricingpanel.png",
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
