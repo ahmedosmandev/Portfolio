@@ -6,7 +6,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
     code: "https://github.com/ahmedaosman-hub/RainOrShine/",
     source: "https://ahmedaosman-hub.github.io/RainOrShine/",
-    image: "assets/images/rainorshine.png",
+    image: "assets/images/RainOrShine.png",
     id: 0,
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Local Storage"],
     code: "https://github.com/ahmedaosman-hub/TaskTrail/",
     source: "https://ahmedaosman-hub.github.io/TaskTrail/",
-    image: "assets/images/tasktrail.png",
+    image: "assets/images/TaskTrail.png",
     id: 1,
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     tags: ["MongoDB", "Express", "React", "Node", "Authorization"],
     code: "https://github.com/ahmedaosman-hub/Communiverse/",
     source: "https://ahmedaosman-hub.github.io/Communiverse/",
-    image: "assets/images/communiverse.png",
+    image: "assets/images/Communiverse.png",
     id: 2,
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     code: "https://github.com/ahmedaosman-hub/Pricing-Panel/",
     source: "https://ahmedaosman-hub.github.io/Pricing-Panel/",
-    image: "assets/images/pricingpanel.png",
+    image: "assets/images/PricingPanel.png",
     id: 3,
   },
 ];
