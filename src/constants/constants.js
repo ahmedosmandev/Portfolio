@@ -39,6 +39,24 @@ export const projects = [
     image: "assets/images/PricingPanel.png",
     id: 3,
   },
+  {
+    title: "Museum of Candy",
+    description:
+      "Museum of Candy: An interactive showcase crafted with HTML5, CSS3, Bootstrap 4, and JavaScript, demonstrating responsive design, smooth navigation, and dynamic content rendering for an engaging user experience. Designed to showcase my proficiency in bootstrap and front-end development.",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "jQuery",
+      "Responsive Design",
+      "Interactive Design",
+    ],
+    code: "https://github.com/ahmedaosman-hub/MuseumOfCandy/",
+    source: "https://ahmedaosman-hub.github.io/MuseumOfCandy/",
+    image: "assets/images/MuseumOfCandy.png",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
