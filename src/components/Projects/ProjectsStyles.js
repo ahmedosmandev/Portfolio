@@ -25,7 +25,11 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  width: 450px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -96,10 +100,13 @@ export const ExternalLinks = styled.a`
 
 export const TagList = styled.ul`
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 2rem;
 `;
+
 export const Tag = styled.li`
   color: #d8bfbf;
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 `;
