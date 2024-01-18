@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Socialize React",
+    description:
+      "SocializeReact: A social networking platform built with React and TypeScript, leveraging Vite for an optimized development experience. It features a minimal setup with Hot Module Replacement (HMR) and ESLint rules for code quality. The app includes functionalities for user authentication, profile management, post creation, and exploring posts from other users.",
+    tags: ["React", "TypeScript", "Vite", "ESLint", "Tailwind CSS", "Appwrite"],
+    code: "https://github.com/ahmedaosman-hub/socialize-react",
+    source: "https://www.socializereact.app/sign-in",
+    image: "assets/images/SocializeReact.png",
+    id: 1,
+  },
+  {
     title: "RainOrShine",
     description:
       "RainOrShine: A simple and responsive web-based weather app built using HTML, CSS, and JavaScript. Leveraging the OpenWeather API, it provides current weather updates with a clean and straightforward interface. Designed as a testament to my skills in front-end development and API integration.",
@@ -7,7 +17,7 @@ export const projects = [
     code: "https://github.com/ahmedaosman-hub/RainOrShine/",
     source: "https://ahmedaosman-hub.github.io/RainOrShine/",
     image: "assets/images/RainOrShine.png",
-    id: 0,
+    id: 2,
   },
   {
     title: "TaskTrail",
@@ -17,18 +27,9 @@ export const projects = [
     code: "https://github.com/ahmedaosman-hub/TaskTrail/",
     source: "https://ahmedaosman-hub.github.io/TaskTrail/",
     image: "assets/images/TaskTrail.png",
-    id: 1,
+    id: 3,
   },
-  {
-    title: "Communiverse - In Progress",
-    description:
-      "Communiverse: A full-stack social media app built using the MERN stack. Features user authentication, post creation, and post interaction. Designed to showcase my proficiency in full-stack development and API integration.",
-    tags: ["MongoDB", "Express", "React", "Node", "Authorization"],
-    code: "https://github.com/ahmedaosman-hub/Communiverse/",
-    source: "https://ahmedaosman-hub.github.io/Communiverse/",
-    image: "assets/images/Communiverse.png",
-    id: 2,
-  },
+
   {
     title: "Pricing Panel",
     description:
@@ -37,7 +38,7 @@ export const projects = [
     code: "https://github.com/ahmedaosman-hub/Pricing-Panel/",
     source: "https://ahmedaosman-hub.github.io/Pricing-Panel/",
     image: "assets/images/PricingPanel.png",
-    id: 3,
+    id: 4,
   },
   {
     title: "Museum of Candy",
@@ -55,7 +56,7 @@ export const projects = [
     code: "https://github.com/ahmedaosman-hub/MuseumOfCandy/",
     source: "https://ahmedaosman-hub.github.io/MuseumOfCandy/",
     image: "assets/images/MuseumOfCandy.png",
-    id: 4,
+    id: 5,
   },
 ];
 
