@@ -127,7 +127,7 @@ body {
 
 nav {
     align-items: center;
-    background-color: #FFF7F1;
+    background-color: #222831;
     box-shadow: 0 0 10px rgba(0, 0, 0, .09);
     display: flex;
     font-size: 1.7rem;
@@ -154,7 +154,7 @@ nav ul {
 }
 
 nav ul a {
-    color: #2d2e32;
+    color: #fff;
     font-weight: 600;
     text-decoration: none;
     transition: all .23s
@@ -171,12 +171,12 @@ nav ul a:hover {
 }
 
 .logo {
-    color: #2d2e32;
+    color: #fff;
     cursor: pointer
 }
 
 .hero {
-    background-color: #f9f9f9;
+    background-color: #393E46;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -639,7 +639,7 @@ nav ul a:hover {
 }
 
 .project {
-    background-color: #E78895;
+    background-color: #00ADB5;
     padding: 15rem 0
 }
 
@@ -860,7 +860,7 @@ nav ul a:hover {
 }
 
 .contact {
-    background-color: #BED1CF;
+    background-color: #EEEEEE;
     padding: 11rem 0
 }
 
